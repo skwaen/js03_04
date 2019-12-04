@@ -1,9 +1,33 @@
 console.log('was loaded');
 
-let str1 = 'text 111';
-let str2 = 'text 222';
-let str3 = 'text 333';
+const person = confirm('are you man?');
+const age = prompt('enter yor age here');
 
-console.log('text 1 : text 2');
-console.log(str1 + ' : ' + str2 + ' # ' + str3);
-console.log(`${str1} : ${str2} # ${str3}`);
+// if(person == true) {
+//     if(age > 20){
+//         if(age < 40){
+//             confirm.log('ok')
+//         }
+//     }
+// }
+
+// if(person && age > 20 && age < 40 {
+//     console.log('ok');
+// } else {
+//     console.log('no ok');
+// }
+
+// if(person){
+//     if(age < 20){
+//         console.log('ok male');
+
+//     }
+// } else {
+//     if(age > 30){
+//         console.log('ok female');
+//     }
+// }
+
+if(person && age < 20 || (!person && age > 30)){
+    console.log('ok');
+}
